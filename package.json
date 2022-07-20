@@ -1,0 +1,33 @@
+{
+  "name": "trombin-o-clock",
+  "version": "1.0.0",
+  "description": "## Gestion de projet",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon",
+    "hello": "echo \"Hello world!\"",
+    "resetDB": "psql -U trombi -f data/create_db.sql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Blob/trombin-o-clock-red.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Blob/trombin-o-clock-red/issues"
+  },
+  "homepage": "https://github.com/O-clock-Blob/trombin-o-clock-red#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "pg": "^8.7.3"
+  }
+}

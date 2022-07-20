@@ -1,0 +1,6 @@
+On a une association 1:N ou (1N ou OneToMany) en 2 entités
+On va faire référence a une entité dans l'autre entité.
+Afin de déterminer qui va faire référence à l'autre on regarde le MCD et, dans le cas d'un association 1N la table qui référence l'autre est celle du côté du 1
+
+PROMOTION (id, pseudo github, nom, prénom, avatar)
+ÉTUDIANT (id, nom, organisation github, #PROMOTION(id))
